@@ -57,7 +57,7 @@ public class PenguinAgent : Agent
         transform.Rotate(transform.up * turnAmount * turnSpeed * Time.fixedDeltaTime);
 
         // Apply a tiny negative reward every step to encourage action
-        AddReward(-1f / maxStep);
+        AddReward(-1f /  maxStep);
     }
 
     /// <summary>

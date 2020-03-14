@@ -7,8 +7,8 @@ public class PenguinAcademy : MonoBehaviour
 {
     private void Start()
     {
-        FishSpeed = 0f;
-        FeedRadius = 0f;
+        FishSpeed = 1f;
+        FeedRadius = 1f;
 
         // Set up code to be called every time the fish_speed parameter changes 
         // during curriculum learning
